@@ -1,0 +1,234 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: #43c6ac;
+  background: -webkit-linear-gradient(to right, #191654, #43c6ac);
+  background: linear-gradient(to right, #191654, #43c6ac);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: black;
+}
+
+.colorMe {
+  background: #c02425;
+  background: -webkit-linear-gradient(to right, #f0cb35, #c02425);
+  background: linear-gradient(to right, #f0cb35, #c02425);
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.error {
+  text-align: center;
+  font-weight: bold;
+  font-size: 400%;
+  margin-top: 20%;
+  margin-left: 8%;
+  color: #382f0f;
+}
+
+h4 {
+  color: rgb(129, 19, 19);
+}
+
+.loginPageCss {
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 10px 10px 3px black;
+  border: 2px solid rgb(36, 3, 3);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 180px;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+  background-repeat: no-repeat;
+  background-repeat: cover;
+  background-size: 100%;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgb(156, 151, 151);
+}
+.input {
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: rgb(201, 201, 17);
+  background-color: rgb(228, 222, 222);
+}
+
+.input:hover {
+  background-color: rgb(42, 245, 23);
+}
+
+lable {
+  font-weight: bold;
+  font-size: 30px;
+  color: #1a3106;
+  text-shadow: 0 1px 0 #8b8b8b, 0 2px 0 #a3a0a0, 0 3px 0 #a3a0a0,
+    0 4px 0 #a3a0a0, 0 30px 5px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1.5px;
+}
+
+.button {
+  background-color: rgb(55, 58, 216);
+  color: white;
+  border-radius: 5px;
+  width: 18%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -50px;
+  font-size: 18px;
+  box-shadow: 0 3px 3px 0 rgb(20, 20, 58);
+}
+.button:hover {
+  background-color: rgb(238, 215, 13);
+  color: black;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  border-radius: 7px;
+  background: #00416a;
+  background: -webkit-linear-gradient(to right, #ffe000, #799f0c, #00416a);
+  background: linear-gradient(to right, #ffe000, #799f0c, #00416a);
+  color: rgb(146, 25, 25);
+  width: 50%;
+  margin-left: 350px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  text-shadow: 0 1px 0 #8b8b8b, 0 2px 0 #a3a0a0, 0 3px 0 #a3a0a0,
+    0 4px 0 #a3a0a0, 0 30px 5px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1.5px;
+}
+
+.mainBox {
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 220px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-right: 100px;
+  border-radius: 3px;
+  box-shadow: 0 5px 10px 0 black;
+  border-radius: 3px solid blue;
+  padding-bottom: 50px;
+  border: 2px solid rgb(36, 3, 3);
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
+
+.task {
+  background-color: rgb(34, 102, 114);
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: white;
+  width: 50%;
+  height: 50px;
+  padding: 5px;
+  border: 2px solid rgb(36, 3, 3);
+  font-size: 100%;
+}
+
+.description {
+  background-color: rgb(16, 59, 43);
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: white;
+  width: 70%;
+  height: 60px;
+  padding: 5px;
+  border: 2px solid rgb(36, 3, 3);
+  font-size: 100%;
+}
+
+.datum {
+  background-color: rgb(23, 99, 70);
+  margin-top: 10px;
+  color: white;
+  width: 30%;
+  height: 50px;
+  padding: 2px;
+  border: 2px solid rgb(36, 3, 3);
+  font-size: 100%;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(139, 32, 32);
+  color: white;
+  border-radius: 15px;
+}
+
+.btn {
+  background-color: #d3c9c9;
+  color: black;
+  border-radius: 7px;
+  margin-top: 10px;
+  width: 95px;
+  box-shadow: 0 5px 10px 0 black;
+}
+
+.todos {
+  margin-top: 30px;
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.delete {
+  background: #f1f2b5;
+  background: -webkit-linear-gradient(to right, #135058, #f1f2b5);
+  background: linear-gradient(to right, #135058, #f1f2b5);
+  width: 70px;
+  color: rgb(24, 23, 23);
+}
+
+.filterAdd {
+  background-color: rgb(55, 58, 216);
+  color: white;
+  width: 100px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.filterAdd:hover {
+  background-color: rgb(238, 215, 13);
+  color: black;
+  border-radius: 10px;
+}
+
+.select {
+  width: 150px;
+  height: 40px;
+  background: #5a3f37;
+  background: -webkit-linear-gradient(to right, #2c7744, #5a3f37);
+  background: linear-gradient(to right, #2c7744, #5a3f37);
+}
+
+.fill {
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 7%;
+}
